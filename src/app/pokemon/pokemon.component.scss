@@ -1,0 +1,62 @@
+#PokemonMain{
+  border-radius: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url("https://i.pinimg.com/originals/43/02/aa/4302aaff1616373d1344c8abef2a7d99.jpg");
+    background-position: center;
+  height : 750px;
+}
+
+.card-div{
+  display:block;
+  margin:0 auto;
+  width: fit-content;
+  img {
+    min-height: 150px;
+    min-width: 150px;
+  }
+}
+
+
+.card-Row {
+background-color: rgba(0,0,0,.5);
+width: 300px;
+border: 1px solid;
+border-radius: 1mm;
+margin: 20px auto;
+}
+
+
+.header {
+color: #fff;
+background-color: rgba(0,0,0,.3);
+padding-left: 16px;
+}
+
+
+/* Mat Css */
+
+.example-form {
+
+width: 100%;
+}
+
+.example-full-width {
+width: 100%;
+}
+.mat-card {
+background:transparent;
+color: white;
+
+}
+
+::ng-deep {
+
+   .mat-form-field{
+      .mat-hint, input, ::placeholder, .mat-form-field-label {
+         color: white;
+      }
+      .mat-form-field-underline{
+        background-color: white;
+      }
+   }
+}
