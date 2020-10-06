@@ -73,7 +73,7 @@ export class PokemonComponent implements OnInit {
   }
 
   onChange(value :String){
-    this.getPokemonData(value);
+    this.getPokemonData(value.toLowerCase());
   }
 
 
